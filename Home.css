@@ -1,0 +1,370 @@
+.header{
+    background-color:#ce0505 ;
+    height: 60px;
+}
+.logo{
+    display: inline-block;
+    margin:7px 0 0 100px;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    border-radius: 50%;
+}
+.login_options{
+    float: right;
+    margin: 15 100 0 0px;
+
+}
+.login , .new_account{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.login{
+    cursor: pointer;
+    margin-right: 15px;
+}
+.new_account{
+    border: 1px solid white;
+   
+    padding: 0 10px 0 10px;   
+    border-radius: 5px;
+    cursor: pointer;
+}
+.top_elements{
+    position:absolute;
+    top:15%;
+    left:29%;
+    
+}
+.logo_top{
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    border-radius: 50%;
+
+}
+.heading_top{
+    font-family: Poppins;
+    font-size: 36px;  
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.dd{
+    height: 40px;
+    width: 208px;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    padding-left: 10px;
+}
+.input{
+    height: 40px;
+    width: 408px;
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 10px 0 15 0px;
+    margin-left: 15%;
+}
+.row{
+    padding-left: 131px;
+}
+.sub-heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin: 5px 0 15 0px;
+    margin-left: 15%;
+}
+
+
+.qs-options { 
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    
+}
+
+.foodImage{
+    display: inline-block;
+    width: 50%;
+    margin-left: -35px;
+}
+
+.foodInfo{
+    display: inline-block;   
+    width: 45%;
+    vertical-align: top;
+    padding: 10px 0 0 16px;
+}
+
+.foodType{
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.description{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+/*For MOBILE SCREEN*/
+
+@media only screen and (max-width: 576px){
+   .logo{
+       margin-left: 10px;
+   }
+   .login_options{
+       margin-right: 10px;
+   }
+   .top_elements{
+       left: 0;
+       margin-left: 19%;
+       margin-right: 8%;
+   }
+   .logo_top{
+       height: 80px;
+       width: 80px;
+       font-size: 60px;
+       margin-left: 30%;
+   }
+   .heading_top{
+       font-size: 20px;
+   }
+   .dd{
+       width: 320px;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   .input{
+    width: 320px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-right: 5%;
+   }
+   .homeImage{
+       height: 350px;
+   }
+   .heading{
+    margin-left: 27%;
+   }
+   .sub-heading{
+    margin-left: 27%;
+   }
+   .row{
+       padding-left:37px;
+       padding-right:32px ;
+   }
+}
+/*For TABLET SCREEN*/
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .logo{
+        margin-left: 25px;
+    }
+    .login_options{
+        margin-right: 25px;
+    }
+    .top_elements{
+        left: 0;
+        margin-left: 20%;
+       
+    }
+    .logo_top{
+        height: 80px;
+        width: 80px;
+        font-size: 60px;
+        margin-left: 33%;
+    }
+    .heading_top{
+        font-size: 25px;
+    }
+    .dd{
+        width: 320px;
+        margin-left: 12%;
+        margin-right: 5%;
+    }
+    .input{
+     width: 320px;
+     margin-left: 12%;
+     margin-top: 10px;
+     margin-right: 5%;
+    }
+    .homeImage{
+        height: 350px;
+    }
+    .heading{
+        text-align: center;
+    }
+    .sub-heading{
+        text-align: center;
+    }
+    .row{
+        padding-left: 150px;
+        padding-right: 0px;
+    }
+    
+}
+/*For Small Lap SCREEN*/
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .logo{
+        margin-left: 50px;
+    }
+    .login_options{
+        margin-right: 50px;
+    }
+    .top_elements{
+        left: 0;
+        margin-left: 25%;
+       
+    }
+    .logo_top{
+        height: 90px;
+        width: 90px;
+        font-size: 70px;
+        margin-left: 33%;
+    }
+    .heading_top{
+        font-size: 30px;
+    }
+    .dd{
+        width: 200px;
+      
+    }
+    .input{
+     width: 320px;
+    
+    }
+    .homeImage{
+        height: 350px;
+    }  
+    .heading{
+        padding-left: 220px;
+    }
+    .sub-heading{
+        padding-left: 200px;
+    }
+    .row{
+        padding-left: 92px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .logo{
+        margin-left: 50px;
+    }
+    .login_options{
+        margin-right: 50px;
+    }
+    .top_elements{
+        left: 0;
+        margin-left: 29%;
+       
+    }
+    .logo_top{
+        height: 90px;
+        width: 90px;
+        font-size: 70px;
+        margin-left: 33%;
+    }
+    .heading_top{
+        font-size: 30px;
+    }
+    .dd{
+        width: 200px;
+      
+    }
+    .input{
+     width: 320px;
+    
+    }
+    .homeImage{
+        height: 350px;
+    }  
+    .heading{
+        padding-left: 300px;
+    }
+    .sub-heading{
+        padding-left: 270px;
+    }
+ 
+}
